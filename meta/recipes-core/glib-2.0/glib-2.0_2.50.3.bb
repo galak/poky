@@ -16,6 +16,8 @@ SRC_URI = "${GNOME_MIRROR}/glib/${SHRT_VER}/glib-${PV}.tar.xz \
            file://0001-Install-gio-querymodules-as-libexec_PROGRAM.patch \
            file://0001-Do-not-ignore-return-value-of-write.patch \
            file://0001-Test-for-pthread_getname_np-before-using-it.patch \
+           file://0002-tests-Ignore-y2k-warnings.patch \
+           file://0001-gdbus-Avoid-printing-null-strings.patch \
            "
 
 SRC_URI_append_class-native = " file://glib-gettextize-dir.patch \
