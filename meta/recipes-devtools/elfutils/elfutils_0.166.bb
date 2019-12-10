@@ -19,6 +19,7 @@ SRC_URI += "\
         file://0001-fix-a-stack-usage-warning.patch \
         file://aarch64_uio.patch \
         file://shadow.patch \
+        file://0001-libelf-Remove-unused-internal-__elf-32-64-_msize-fun.patch \
 "
 
 # pick the patch from debian
