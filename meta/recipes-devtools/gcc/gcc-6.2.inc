@@ -78,6 +78,7 @@ SRC_URI = "\
            file://0045-libgcc-Add-knob-to-use-ldbl-128-on-ppc.patch \
            file://0046-Link-libgcc-using-LDFLAGS-not-just-SHLIB_LDFLAGS.patch \
            file://0047-libgcc_s-Use-alias-for-__cpu_indicator_init-instead-.patch \
+           file://fix_ubsan_iso_cpp_forbids_comparison_between_pointer_and_integer.patch \
            ${BACKPORTS} \
 "
 BACKPORTS = ""
