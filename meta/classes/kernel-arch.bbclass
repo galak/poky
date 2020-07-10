@@ -32,6 +32,7 @@ def map_kernel_arch(a, d):
     elif re.match('microblazee[bl]', a):        return 'microblaze'
     elif a in valid_archs:                      return a
     else:
+        if d.getVar("TCLIBC", True) == "baremetal": return a;
         bb.error("cannot map '%s' to a linux kernel architecture" % a)
 
 export ARCH = "${@map_kernel_arch(d.getVar('TARGET_ARCH', True), d)}"
