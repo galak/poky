@@ -80,6 +80,7 @@ SRC_URI = "\
            file://0047-libgcc_s-Use-alias-for-__cpu_indicator_init-instead-.patch \
            file://0048-sync-gcc-stddef.h-with-musl.patch \
            file://0054_all_nopie-all-flags.patch \
+           file://fix_ubsan_iso_cpp_forbids_comparison_between_pointer_and_integer.patch \
            ${BACKPORTS} \
 "
 BACKPORTS = "\
