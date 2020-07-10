@@ -104,3 +104,5 @@ pkg_postinst_eudev-hwdb () {
 pkg_prerm_eudev-hwdb () {
         rm -f $D${sysconfdir}/udev/hwdb.bin
 }
+
+BBCLASSEXTEND = "nativesdk"
