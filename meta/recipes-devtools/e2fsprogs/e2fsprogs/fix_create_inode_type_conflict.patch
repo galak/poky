@@ -1,0 +1,12 @@
+diff --git a/misc/create_inode.c b/misc/create_inode.c
+index c879a3ec..b831164e 100644
+--- a/misc/create_inode.c
++++ b/misc/create_inode.c
+@@ -16,7 +16,6 @@
+ #include "config.h"
+ #include <time.h>
+ #include <sys/types.h>
+-#include <unistd.h>
+ #include <limits.h> /* for PATH_MAX */
+ #ifdef HAVE_ATTR_XATTR_H
+ #include <attr/xattr.h>
